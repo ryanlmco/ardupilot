@@ -26,7 +26,7 @@ const AP_Param::GroupInfo OpticalFlow::var_info[] = {
 
     // @Param: _FYSCALER
     // @DisplayName: Y axis optical flow scale factor correction
-    // @Description: This sets the parts per thousand scale factor correction applied to the flow sensor Y axis optical rate. It can be used to correct for variations in effective focal length. Each positive increment of 1 increases the scale factor applied to the Y axis optical flow reading by 0.1%. Negative values reduce the scale factor.
+    // @Description: This sets the parts per thousand scale factor correction applied to the flow sensor Y axis optical rate. It can be used to correct for variations in effective focal length. Each positive increment of 1 increases the scale factor applied to the Y axis optical flow reading by 0.1%. Negative values reduce the scale factor PALSKI. 
     // @Range: -200 +200
     // @Increment: 1
     // @User: Standard
